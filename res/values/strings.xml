@@ -11,6 +11,9 @@
     <string name="pref_title_simple_list_adapter">Adapters</string>
     <string name="pref_summary_simple_list_adapter">Populating lists using Adapters</string>
 
+    <string name="pref_title_view_pager">View Pager</string>
+    <string name="pref_summary_view_pager">Switching between Views using the ViewPager</string>
+
     <string name="pref_title_fragments">Fragments</string>
     <string name="pref_summary_fragments">Using Fragments to build reusable UI components</string>
 

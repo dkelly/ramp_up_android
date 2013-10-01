@@ -1,12 +1,8 @@
 package com.macadamian;
 
-import android.os.Bundle;
-import android.preference.PreferenceFragment;
-
-public class UserInterfaceExamplesFragment extends PreferenceFragment {
+public class UserInterfaceExamplesFragment extends ExamplePreferenceFragment {
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.user_interface_examples);
+    protected int getResourceId() {
+        return R.xml.user_interface_examples;
     }
 }

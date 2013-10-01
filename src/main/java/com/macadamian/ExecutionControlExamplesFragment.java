@@ -1,12 +1,8 @@
 package com.macadamian;
 
-import android.os.Bundle;
-import android.preference.PreferenceFragment;
-
-public class ExecutionControlExamplesFragment extends PreferenceFragment {
+public class ExecutionControlExamplesFragment extends ExamplePreferenceFragment {
     @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        addPreferencesFromResource(R.xml.execution_control_examples);
+    protected int getResourceId() {
+        return R.xml.execution_control_examples;
     }
 }

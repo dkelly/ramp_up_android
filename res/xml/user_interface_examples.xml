@@ -1,0 +1,18 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_basic_user_interface"
+        android:summary="@string/pref_summary_basic_user_interface"
+        android:title="@string/pref_title_basic_user_interface" />
+    <Preference
+        android:key="pref_simple_list_adapter"
+        android:summary="@string/pref_summary_simple_list_adapter"
+        android:title="@string/pref_title_simple_list_adapter" />
+    <Preference
+        android:key="pref_fragments"
+        android:summary="@string/pref_summary_fragments"
+        android:title="@string/pref_title_fragments" />
+    <Preference
+        android:key="pref_action_bar"
+        android:summary="@string/pref_summary_action_bar"
+        android:title="@string/pref_title_action_bar" />  
+</PreferenceScreen>

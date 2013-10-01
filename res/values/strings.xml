@@ -35,4 +35,9 @@
     <string name="title_application_services">Application Services</string>
     <string name="title_platform_interop">Platform Interaction</string>
     <string name="title_networking">Networking</string>
+
+    <!-- basic user interface example -->
+    <string name="title_basic_user_interface">Basic User Interface</string>
+    <string name="basic_user_interface_edit_content">Hint content</string>
+    <string name="basic_user_interface_confirm">Confirm</string>
 </resources>

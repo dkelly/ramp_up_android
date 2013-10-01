@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Ramp Up</string>
+
+    <string name="title_user_interface">User Interface</string>
+    <string name="summary_user_interface">Basic user interface examples</string>
+
+    <string name="pref_title_basic_user_interface">Basic</string>
+    <string name="pref_summary_basic_user_interface">Basics of View interaction</string>
+
+    <string name="pref_title_simple_list_adapter">Adapters</string>
+    <string name="pref_summary_simple_list_adapter">Populating lists using Adapters</string>
+
+    <string name="pref_title_fragments">Fragments</string>
+    <string name="pref_summary_fragments">Using Fragments to build reusable UI components</string>
+
+    <string name="pref_title_action_bar">Action Bar</string>
+    <string name="pref_summary_action_bar">Using the Action Bar from the support libraries</string>
+
+    <string name="title_execution_control">Execution Control</string>
+    <string name="summary_execution_control">Android-specific execution and invocation patterns</string>
+
+    <string name="pref_title_intents">Intents</string>
+    <string name="pref_summary_intents">Using Intents for execution control inside of an application</string>
+
+    <string name="pref_title_actions">Actions</string>
+    <string name="pref_summary_actions">General action Intents to invoke platform functionality</string>
+
+    <string name="pref_title_handlers">Handlers</string>
+    <string name="pref_summary_handlers">Building asynchronous behaviour with messages and handlers</string>
+
+    <string name="pref_title_broadcasts">Broadcasts</string>
+    <string name="pref_summary_broadcasts">Broadcasting and receiving events between applications/processes</string>
+
+    <string name="title_application_services">Application Services</string>
+    <string name="title_platform_interop">Platform Interaction</string>
+    <string name="title_networking">Networking</string>
+</resources>

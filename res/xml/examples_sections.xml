@@ -1,0 +1,8 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:fragment="com.macadamian.UserInterfaceExamplesFragment"
+            android:title="@string/title_user_interface"
+            android:summary="@string/summary_user_interface" />
+    <header android:fragment="com.macadamian.ExecutionControlExamplesFragment"
+            android:title="@string/title_execution_control"
+            android:summary="@string/summary_execution_control" />
+</preference-headers>

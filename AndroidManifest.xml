@@ -12,5 +12,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".BasicUserInterfaceActivity" android:label="@string/title_basic_user_interface" />
+        <activity android:name=".SimpleListAdapterActivity" android:label="@string/title_simple_list_adapter" />
+        <activity android:name=".CursorAdapterActivity" android:label="@string/title_cursor_adapter" />
     </application>
 </manifest>

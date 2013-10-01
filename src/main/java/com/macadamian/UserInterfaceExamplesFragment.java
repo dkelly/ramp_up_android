@@ -7,6 +7,8 @@ public class UserInterfaceExamplesFragment extends ExamplePreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         add("pref_basic_user_interface", BasicUserInterfaceActivity.class);
+        add("pref_simple_list_adapter", SimpleListAdapterActivity.class);
+        add("pref_cursor_adapter", CursorAdapterActivity.class);
     }
 
     @Override

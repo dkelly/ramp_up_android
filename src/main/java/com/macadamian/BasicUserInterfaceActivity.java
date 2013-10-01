@@ -27,8 +27,6 @@ public class BasicUserInterfaceActivity extends Activity {
         TextView content = (TextView) findViewById(R.id.basic_user_interface_edit_content);
         TextView result = (TextView) findViewById(R.id.basic_user_interface_result);
 
-        Log.d("donk", String.format("text=%s", content.getText()));
-
         result.setText(content.getText());
     }
 }

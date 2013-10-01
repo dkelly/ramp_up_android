@@ -8,8 +8,11 @@
     <string name="pref_title_basic_user_interface">Basic</string>
     <string name="pref_summary_basic_user_interface">Basics of View interaction</string>
 
-    <string name="pref_title_simple_list_adapter">Adapters</string>
+    <string name="pref_title_simple_list_adapter">ListView</string>
     <string name="pref_summary_simple_list_adapter">Populating lists using Adapters</string>
+
+    <string name="pref_title_cursor_adapter">CursorAdaptor</string>
+    <string name="pref_summary_cursor_adapter">Populating lists dynamically from data using a CursorAdapter</string>
 
     <string name="pref_title_view_pager">View Pager</string>
     <string name="pref_summary_view_pager">Switching between Views using the ViewPager</string>
@@ -39,8 +42,27 @@
     <string name="title_platform_interop">Platform Interaction</string>
     <string name="title_networking">Networking</string>
 
-    <!-- basic user interface example -->
+    <!-- activities -->
     <string name="title_basic_user_interface">Basic User Interface</string>
+    <string name="title_simple_list_adapter">Simple List Adapter</string>
+    <string name="title_cursor_adapter">Cursor Adapter</string>
+
+    <!-- basic user interface example -->
     <string name="basic_user_interface_edit_content">Hint content</string>
     <string name="basic_user_interface_confirm">Confirm</string>
+
+    <!-- simple list adapter -->
+    <string name="am">Armenia</string>
+    <string name="au">Australia</string>
+    <string name="ca">Canada</string>
+    <string name="cn">China</string>
+    <string name="cz">Czech Republic</string>
+    <string name="eg">Egypt</string>
+    <string name="fi">Finland</string>
+    <string name="fr">France</string>
+    <string name="gr">Greece</string>
+    <string name="ie">Ireland</string>
+    <string name="it">Italy</string>
+    <string name="lb">Lebanon</string>
+    <string name="uk">United Kingdom</string>
 </resources>

@@ -8,6 +8,10 @@
         android:summary="@string/pref_summary_simple_list_adapter"
         android:title="@string/pref_title_simple_list_adapter" />
     <Preference
+        android:key="pref_cursor_adapter"
+        android:summary="@string/pref_summary_cursor_adapter"
+        android:title="@string/pref_title_cursor_adapter" />
+    <Preference
         android:key="pref_view_pager"
         android:summary="@string/pref_summary_view_pager"
         android:title="@string/pref_title_view_pager" />

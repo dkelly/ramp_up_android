@@ -11,7 +11,7 @@ public class UserInterfaceExamplesFragment extends ExamplePreferenceFragment {
         add("pref_cursor_adapter", CursorAdapterActivity.class);
         add("pref_view_pager", ViewPagerActivity.class);
         add("pref_fragments", FragmentsActivity.class);
-        add("pref_action_bar", ActionBarActivity.class);
+        add("pref_action_bar", ActionBarExampleActivity.class);
     }
 
     @Override

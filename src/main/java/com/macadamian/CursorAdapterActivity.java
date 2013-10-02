@@ -33,6 +33,13 @@ public class CursorAdapterActivity extends ListActivity
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
+        create_progress_bar();
+        create_adapter();
+
+        getLoaderManager().initLoader(0, null, this);
+    }
+
+    private void create_progress_bar() {
         ProgressBar progress = new ProgressBar(this);
         progress.setLayoutParams(new LinearLayout.LayoutParams(ViewGroup.LayoutParams.WRAP_CONTENT, ViewGroup.LayoutParams.WRAP_CONTENT, Gravity.CENTER));
         progress.setIndeterminate(true);
@@ -40,7 +47,9 @@ public class CursorAdapterActivity extends ListActivity
 
         ViewGroup root = (ViewGroup) findViewById(android.R.id.content);
         root.addView(progress);
+    }
 
+    private void create_adapter() {
         String fromColumns[] = { ContactsContract.Data.DISPLAY_NAME };
         int[] toViews = { android.R.id.text1 };
 
@@ -48,8 +57,6 @@ public class CursorAdapterActivity extends ListActivity
             this, android.R.layout.simple_list_item_1, null,
             fromColumns, toViews, 0);
         setListAdapter(mAdapter);
-
-        getLoaderManager().initLoader(0, null, this);
     }
 
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {

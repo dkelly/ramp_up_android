@@ -48,6 +48,9 @@
     <string name="title_basic_user_interface">Basic User Interface</string>
     <string name="title_simple_list_adapter">Simple List Adapter</string>
     <string name="title_cursor_adapter">Cursor Adapter</string>
+    <string name="title_view_pager">View Pager</string>
+    <string name="title_fragments">Fragments</string>
+    <string name="title_action_bar">Action Bar</string>
 
     <!-- basic user interface example -->
     <string name="basic_user_interface_edit_content">Hint content</string>

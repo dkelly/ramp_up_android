@@ -41,6 +41,13 @@
     <string name="title_data">Data</string>
     <string name="summary_data">Various was to access data within applications and the system</string>
 
+    <string name="pref_title_providers">Providers</string>
+    <string name="pref_summary_providers">Consuming data from system Content Providers</string>
+    <string name="pref_title_app_provider">Application Content Provider</string>
+    <string name="pref_summary_app_provider">Implementing an application-specific Content Provider</string>
+    <string name="pref_title_sharing">Sharing</string>
+    <string name="pref_summary_sharing">Sharing data between applications</string>
+
     <string name="title_system">Platform Interaction</string>
     <string name="summary_system">Interacting with the Plaform services</string>
 

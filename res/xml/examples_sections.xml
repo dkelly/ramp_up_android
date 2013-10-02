@@ -5,4 +5,10 @@
     <header android:fragment="com.macadamian.ExecutionControlExamplesFragment"
             android:title="@string/title_execution_control"
             android:summary="@string/summary_execution_control" />
+    <header android:fragment="com.macadamian.DataExamplesFragment"
+            android:title="@string/title_data"
+            android:summary="@string/summary_data" />
+    <header android:fragment="com.macadamian.SystemExamplesFragment"
+            android:title="@string/title_system"
+            android:summary="@string/summary_system" />
 </preference-headers>

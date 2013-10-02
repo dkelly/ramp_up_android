@@ -38,9 +38,11 @@
     <string name="pref_title_broadcasts">Broadcasts</string>
     <string name="pref_summary_broadcasts">Broadcasting and receiving events between applications/processes</string>
 
-    <string name="title_application_services">Application Services</string>
-    <string name="title_platform_interop">Platform Interaction</string>
-    <string name="title_networking">Networking</string>
+    <string name="title_data">Data</string>
+    <string name="summary_data">Various was to access data within applications and the system</string>
+
+    <string name="title_system">Platform Interaction</string>
+    <string name="summary_system">Interacting with the Plaform services</string>
 
     <!-- activities -->
     <string name="title_basic_user_interface">Basic User Interface</string>

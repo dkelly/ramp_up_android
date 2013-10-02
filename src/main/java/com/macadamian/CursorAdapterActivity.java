@@ -18,7 +18,7 @@ import android.support.v4.widget.SimpleCursorAdapter;
 public class CursorAdapterActivity extends ListActivity
     implements LoaderManager.LoaderCallbacks<Cursor> {
 
-    SimpleCursorAdapter mAdapter;
+    SimpleCursorAdapter _adapter;
 
     static final String[] PROJECTION = new String[] {
         ContactsContract.Data._ID, ContactsContract.Data.DISPLAY_NAME
@@ -53,10 +53,10 @@ public class CursorAdapterActivity extends ListActivity
         String fromColumns[] = { ContactsContract.Data.DISPLAY_NAME };
         int[] toViews = { android.R.id.text1 };
 
-        mAdapter = new SimpleCursorAdapter(
+        _adapter = new SimpleCursorAdapter(
             this, android.R.layout.simple_list_item_1, null,
             fromColumns, toViews, 0);
-        setListAdapter(mAdapter);
+        setListAdapter(_adapter);
     }
 
     public Loader<Cursor> onCreateLoader(int id, Bundle args) {
@@ -64,10 +64,10 @@ public class CursorAdapterActivity extends ListActivity
     }
 
     public void onLoadFinished(Loader<Cursor> loader, Cursor c) {
-        mAdapter.swapCursor(c);
+        _adapter.swapCursor(c);
     }
 
     public void onLoaderReset(Loader<Cursor> loader) {
-        mAdapter.swapCursor(null);
+        _adapter.swapCursor(null);
     }
 }

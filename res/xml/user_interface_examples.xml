@@ -12,13 +12,13 @@
         android:summary="@string/pref_summary_cursor_adapter"
         android:title="@string/pref_title_cursor_adapter" />
     <Preference
-        android:key="pref_view_pager"
-        android:summary="@string/pref_summary_view_pager"
-        android:title="@string/pref_title_view_pager" />
-    <Preference
         android:key="pref_fragments"
         android:summary="@string/pref_summary_fragments"
         android:title="@string/pref_title_fragments" />
+    <Preference
+        android:key="pref_view_pager"
+        android:summary="@string/pref_summary_view_pager"
+        android:title="@string/pref_title_view_pager" />
     <Preference
         android:key="pref_action_bar"
         android:summary="@string/pref_summary_action_bar"

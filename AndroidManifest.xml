@@ -19,6 +19,6 @@
         <activity android:name=".CursorAdapterActivity" android:label="@string/title_cursor_adapter" />
         <activity android:name=".ViewPagerActivity" android:label="@string/title_view_pager" />
         <activity android:name=".FragmentsActivity" android:label="@string/title_fragments" />
-        <activity android:name=".ActionBarActivity" android:label="@string/title_action_bar" />
+        <activity android:name=".ActionBarExampleActivity" android:label="@string/title_action_bar" android:theme="@style/Theme.AppCompat.Light" />
     </application>
 </manifest>

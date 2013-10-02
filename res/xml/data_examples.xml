@@ -1,2 +1,14 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_providers"
+        android:summary="@string/pref_summary_providers"
+        android:title="@string/pref_title_providers" />  
+    <Preference
+        android:key="pref_app_provider"
+        android:summary="@string/pref_summary_app_provider"
+        android:title="@string/pref_title_app_provider" />  
+    <Preference
+        android:key="pref_sharing"
+        android:summary="@string/pref_summary_sharing"
+        android:title="@string/pref_title_sharing" />  
 </PreferenceScreen>

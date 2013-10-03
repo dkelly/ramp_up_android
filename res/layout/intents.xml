@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              >
+  <RadioGroup
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:orientation="horizontal"
+      >
+    <RadioButton
+        android:id="@+id/intents_radio_option_a"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/intents_radio_option_a" />
+    <RadioButton
+        android:id="@+id/intents_radio_option_b"
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/intents_radio_option_b" />
+  </RadioGroup>
+  <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+    <Button
+        android:id="@+id/intents_start_activity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intents_button_start_activity" />
+    <Button
+        android:id="@+id/intents_start_activity_for_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/intents_button_start_activity_for_result" />
+  </LinearLayout>
+  <TextView android:id="@+id/intents_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            />
+</LinearLayout>

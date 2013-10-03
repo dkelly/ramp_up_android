@@ -20,5 +20,6 @@
         <activity android:name=".ViewPagerActivity" android:label="@string/title_view_pager" />
         <activity android:name=".FragmentsActivity" android:label="@string/title_fragments" />
         <activity android:name=".ActionBarExampleActivity" android:label="@string/title_action_bar" android:theme="@style/Theme.AppCompat.Light" />
+        <activity android:name=".IntentsActivity" android:label="@string/title_intents" />
     </application>
 </manifest>

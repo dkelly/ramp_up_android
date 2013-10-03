@@ -95,6 +95,6 @@
     <!-- intents -->
     <string name="intents_radio_option_a">Option A</string>
     <string name="intents_radio_option_b">Option B</string>
-    <string name="intents_button_start_activity">Start</string>
-    <string name="intents_button_start_activity_for_result">Result</string>
+    <string name="intents_button_start_activity">Start the Activity</string>
+    <string name="intents_button_start_activity_for_result">Get results</string>
 </resources>

@@ -21,5 +21,6 @@
         <activity android:name=".FragmentsActivity" android:label="@string/title_fragments" />
         <activity android:name=".ActionBarExampleActivity" android:label="@string/title_action_bar" android:theme="@style/Theme.AppCompat.Light" />
         <activity android:name=".IntentsActivity" android:label="@string/title_intents" />
+        <activity android:name=".IntentsStartedActivity" android:label="@string/title_intents" />
     </application>
 </manifest>

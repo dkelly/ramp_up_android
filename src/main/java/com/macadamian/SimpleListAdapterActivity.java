@@ -47,7 +47,10 @@ public class SimpleListAdapterActivity
 
         @Override
         public View getView(int position, View convertView, ViewGroup parent) {
-            View v = getLayoutInflater().inflate(R.layout.simple_list_adapter_item, parent, false);
+            View v = convertView;
+            if (null != v) {
+                v = getLayoutInflater().inflate(R.layout.simple_list_adapter_item, parent, false);
+            }
             Info i = getItem(position);
             ((TextView) v.findViewById(R.id.simple_list_adapter_item_text)).setText(i.textId);
             ((ImageView) v.findViewById(R.id.simple_list_adapter_item_icon)).setImageResource(i.iconId);

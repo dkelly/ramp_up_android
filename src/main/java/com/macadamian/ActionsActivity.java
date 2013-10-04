@@ -14,11 +14,6 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 
 public class ActionsActivity extends Activity {
-    static final String EXTRA_OPTION = "com.macadamian.intent.extra.OPTION";
-    static final String EXTRA_RESULT = "com.macadamian.intent.extra.RESULT";
-
-    static final String ACTION_RESULT = "com.macadamian.intent.action.RESULT";
-
     View.OnClickListener _click_listener = new View.OnClickListener() {
             @Override
             public void onClick(View v) {

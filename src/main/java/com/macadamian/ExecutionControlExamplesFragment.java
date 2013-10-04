@@ -8,6 +8,7 @@ public class ExecutionControlExamplesFragment extends ExamplePreferenceFragment 
         super.onCreate(savedInstanceState);
         add("pref_intents", IntentsActivity.class);
         add("pref_actions", ActionsActivity.class);
+        add("pref_broadcasts", BroadcastsActivity.class);
     }
 
     @Override

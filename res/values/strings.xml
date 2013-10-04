@@ -59,6 +59,7 @@
     <string name="title_fragments">Fragments</string>
     <string name="title_action_bar">Action Bar</string>
     <string name="title_intents">Intents</string>
+    <string name="title_actions">Actions</string>
 
     <!-- basic user interface example -->
     <string name="basic_user_interface_edit_content">Hint content</string>
@@ -96,5 +97,11 @@
     <string name="intents_radio_option_a">Option A</string>
     <string name="intents_radio_option_b">Option B</string>
     <string name="intents_button_start_activity">Start the Activity</string>
-    <string name="intents_button_start_activity_for_result">Get results</string>
+    <string name="intents_button_start_activity_for_result">Get
+    results</string>
+
+    <!-- actions -->
+    <string name="actions_action_browse">Browse</string>
+    <string name="actions_action_call">Call</string>
+    <string name="actions_action_dial">Dial</string>
 </resources>

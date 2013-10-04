@@ -7,6 +7,7 @@ public class ExecutionControlExamplesFragment extends ExamplePreferenceFragment 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         add("pref_intents", IntentsActivity.class);
+        add("pref_actions", ActionsActivity.class);
     }
 
     @Override

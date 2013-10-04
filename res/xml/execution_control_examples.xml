@@ -8,11 +8,11 @@
         android:summary="@string/pref_summary_actions"
         android:title="@string/pref_title_actions" />
     <Preference
-        android:key="pref_handlers"
-        android:summary="@string/pref_summary_handlers"
-        android:title="@string/pref_title_handlers" />
-    <Preference
         android:key="pref_broadcasts"
         android:summary="@string/pref_summary_broadcasts"
         android:title="@string/pref_title_broadcasts" />
+    <Preference
+        android:key="pref_handlers"
+        android:summary="@string/pref_summary_handlers"
+        android:title="@string/pref_title_handlers" />
 </PreferenceScreen>

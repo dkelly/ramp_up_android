@@ -1,2 +1,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="pref_inapp_billing"
+        android:summary="@string/pref_summary_inapp_billing"
+        android:title="@string/pref_title_inapp_billing" />
 </PreferenceScreen>

@@ -51,6 +51,9 @@
     <string name="title_system">Platform Interaction</string>
     <string name="summary_system">Interacting with the Plaform services</string>
 
+    <string name="pref_title_inapp_billing">In-App Billing</string>
+    <string name="pref_summary_inapp_billing">Integration with the Google Play services for app billing components</string>
+
     <!-- activities -->
     <string name="title_basic_user_interface">Basic User Interface</string>
     <string name="title_simple_list_adapter">Simple List Adapter</string>

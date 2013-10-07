@@ -64,6 +64,7 @@
     <string name="title_intents">Intents</string>
     <string name="title_actions">Actions</string>
     <string name="title_broadcasts">Broadcasts</string>
+    <string name="title_inapp_billing">In-App Billing</string>
 
     <!-- basic user interface example -->
     <string name="basic_user_interface_edit_content">Hint content</string>

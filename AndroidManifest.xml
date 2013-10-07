@@ -6,6 +6,9 @@
     <!-- for data access in CursorAdapterActivity -->
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
+    <!-- in-app billing example -->
+    <uses-permission android:name="com.android.vending.BILLING" />
+
     <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
         <activity android:name=".ExamplesSelectionActivity">
             <intent-filter>
@@ -24,5 +27,6 @@
         <activity android:name=".IntentsStartedActivity" android:label="@string/title_intents" />
         <activity android:name=".ActionsActivity" android:label="@string/title_actions" />
         <activity android:name=".BroadcastsActivity" android:label="@string/title_broadcasts" />
+        <activity android:name=".InAppBillingActivity" android:label="@string/title_inapp_billing" />
     </application>
 </manifest>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0-SNAPSHOT" package="com.macadamian">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="4" android:versionName="1.0-SNAPSHOT" package="com.macadamian">
 
     <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="16"/>
 
     <!-- for data access in CursorAdapterActivity -->
-    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <!-- in-app billing example -->
-    <uses-permission android:name="com.android.vending.BILLING" />
+    <uses-permission android:name="com.android.vending.BILLING"/>
 
     <application android:allowBackup="true" android:debuggable="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:theme="@style/AppTheme">
         <activity android:name=".ExamplesSelectionActivity">
@@ -17,16 +17,16 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".BasicUserInterfaceActivity" android:label="@string/title_basic_user_interface" />
-        <activity android:name=".SimpleListAdapterActivity" android:label="@string/title_simple_list_adapter" />
-        <activity android:name=".CursorAdapterActivity" android:label="@string/title_cursor_adapter" />
-        <activity android:name=".ViewPagerActivity" android:label="@string/title_view_pager" />
-        <activity android:name=".FragmentsActivity" android:label="@string/title_fragments" />
-        <activity android:name=".ActionBarExampleActivity" android:label="@string/title_action_bar" android:theme="@style/Theme.AppCompat.Light" />
-        <activity android:name=".IntentsActivity" android:label="@string/title_intents" />
-        <activity android:name=".IntentsStartedActivity" android:label="@string/title_intents" />
-        <activity android:name=".ActionsActivity" android:label="@string/title_actions" />
-        <activity android:name=".BroadcastsActivity" android:label="@string/title_broadcasts" />
-        <activity android:name=".InAppBillingActivity" android:label="@string/title_inapp_billing" />
+        <activity android:label="@string/title_basic_user_interface" android:name=".BasicUserInterfaceActivity"/>
+        <activity android:label="@string/title_simple_list_adapter" android:name=".SimpleListAdapterActivity"/>
+        <activity android:label="@string/title_cursor_adapter" android:name=".CursorAdapterActivity"/>
+        <activity android:label="@string/title_view_pager" android:name=".ViewPagerActivity"/>
+        <activity android:label="@string/title_fragments" android:name=".FragmentsActivity"/>
+        <activity android:label="@string/title_action_bar" android:name=".ActionBarExampleActivity" android:theme="@style/Theme.AppCompat.Light"/>
+        <activity android:label="@string/title_intents" android:name=".IntentsActivity"/>
+        <activity android:label="@string/title_intents" android:name=".IntentsStartedActivity"/>
+        <activity android:label="@string/title_actions" android:name=".ActionsActivity"/>
+        <activity android:label="@string/title_broadcasts" android:name=".BroadcastsActivity"/>
+        <activity android:label="@string/title_inapp_billing" android:name=".InAppBillingActivity"/>
     </application>
 </manifest>
